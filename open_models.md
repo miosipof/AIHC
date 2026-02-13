@@ -21,6 +21,7 @@ Can be used for named entity recognition (NER), text classification and other ta
 * [ClinicalBERT](https://huggingface.co/medicalai/ClinicalBERT) clinical-note representations for NER, phenotyping, cohort selection, readmission/risk models, etc
 * [BioGPT](https://huggingface.co/docs/transformers/en/model_doc/biogpt) biomedical text generation/mining; useful for literature-focused tasks (entity linking, relation extraction prototypes, etc.)
 
+* [MedAlpaca](https://huggingface.co/medalpaca/medalpaca-7b) LlaMa fin-tuned on medical texts (WikiDoc, CHatDoctor, etc)
 
 
 ## Vision
