@@ -1,7 +1,7 @@
 # Open Source AI/ML models for Healthcare
 _______________________________________
 
-Updated 06.02.2026
+Updated 13.03.2026 [added MedGemma1.5 and MedASR]
 
 ## LLMs
 
@@ -18,9 +18,9 @@ Can be used for summarization, drafting patient letters, agentic/RAG systems. So
 
 Can be used for named entity recognition (NER), text classification and other tasks when medical-specific terms are highly involved.
 
+* [MedGemma 1.5](https://huggingface.co/google/medgemma-1.5-4b-it) multimodal LLM fine-tuned on instruction tasks in EHR analysis and medical imaging
 * [ClinicalBERT](https://huggingface.co/medicalai/ClinicalBERT) clinical-note representations for NER, phenotyping, cohort selection, readmission/risk models, etc
 * [BioGPT](https://huggingface.co/docs/transformers/en/model_doc/biogpt) biomedical text generation/mining; useful for literature-focused tasks (entity linking, relation extraction prototypes, etc.)
-
 * [MedAlpaca](https://huggingface.co/medalpaca/medalpaca-7b) LlaMa fin-tuned on medical texts (WikiDoc, CHatDoctor, etc)
 
 
@@ -40,6 +40,7 @@ Can be used for named entity recognition (NER), text classification and other ta
 
 ## Speech
 
+* [MedASR](https://huggingface.co/google/medasr) Speech recognition model with Conformer architecture, pre-trained for medical dictation.
 * [OpenAI Whisper](https://huggingface.co/openai/whisper-large-v3) robust transcription for clinician dictation, visit audio summaries, patient interviews (consent + governance needed).
 * [NVIDIA NeMo](https://github.com/NVIDIA-NeMo/NeMo) (Conformer, etc) open framework + pretrained ASR checkpoints; powerful for streaming and on-device deployment.
 
